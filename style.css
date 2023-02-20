@@ -1,0 +1,33 @@
+body{
+    margin:0;
+    padding:0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+nav{
+    padding: 5px 25px;
+    background-color: azure;
+    color: black;
+}
+li{
+    list-style-type: none;
+    display: inline-block;
+    padding:0 20px;
+}
+li a:hover{
+    color: white;
+    cursor: pointer;
+} 
+li a{
+    color: black;
+    text-decoration: none;
+}
+.intro{
+    display: inline-block;
+    font-size: 1 rem;
+}
+.navbar{
+    float:right;
+}
+.heading{
+    text-align: center;
+}
